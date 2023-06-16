@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/versa-icon.ico" type="image/x-icon">
+    <title>Novos aprendizados</title>
+    <style>
+        @font-face {
+            font-family: 'Fire';
+            src: url(fonts/Play\ With\ Fire.ttf) format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendizados</h1>
+    <hr> <!-- linha horizontal-->
+    <p>Como escrever os símbolos &lt; e &gt;</p>
+    <p>Adicionando alguns símbolos &reg; &copy; &trade; &euro; &pound; &yen; &cent; &Delta; &uparrow;</p>
+    <p>Adicionando emojis: &#x1F603; &#x1F910;</p>
+    <p>Lorem ipsum, <strong>dolor sit amet consectetur</strong> adipisicing elit. Ipsum vitae nemo aperiam, aut, <em>debitis deleniti</em>, nulla nihil labore esse dolorum harum suscipit odit laudantium. Saepe explicabo vitae expedita consequatur error.</p>
+    <p><mark style="background-color: aqua">Para marcar algo usa a tag MARK</mark></p>
+    <h2>Texto deletado</h2>
+    <p>harum suscipit <del>odit laudantium.</del> Saepe explicabo vitae expedita consequatur error.</p>
+    <h2>Texto inserido</h2>
+    <p>harum suscipit odit laudantium. <ins>Saepe explicabo vitae expedita</ins> consequatur error.</p>
+    <h2>Texto sobrescrito (em cima)</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito (embaixo)</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <hr>
+    <h2>Código-fonte / Pré formatação</h2>
+    <p>Testando: <code>document.getElementById('teste') com a tag code fica assim</code></p>
+
+    <pre>
+        <code>
+let num = 2
+if(num%2 == 0){
+    alert('O número ${num} é par!')
+} else { 
+    alert('O numero ${num} é impar!')
+}
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria Lucas bonito: <q>eu sou um gostoso kk</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Guilherme A. Barucke Marcondes, no seu livro Matemática com Python:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/ZyJyDwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+livro&printsec=frontcover">
+        Elementos inline são aqueles elementos da marcação HTML que não formam novos blocos de conteúdo. O conteúdo é distribuído em linha. São exemplos: o elemento para forte ênfase strong e as imagens.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. </p>
+    <h2>Links pra baixar arquivos pdf e zip</h2>
+    <ul>
+        <li><a href="livro/aula.pdf" download="aula pdf.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/aula.zip" download="aula zip.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+
+    <h2>Colocando áudios</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/among.mp3" type="audio/mpeg">
+        <source src="midia/among.ogg" type="audio/ogg">
+        <source src="midia/among.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio. <a href="midia/among.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+    </audio>
+    <br>
+    <audio preload="metadata" controls>
+        <source src="midia/um-nojo.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Colocando videos</h2>
+    <video width="560px" poster="imagens/jett-.jpg" controls>
+        <source src="midia/video-jett.mp4" type="video/mp4">
+        <source src="midia/video-jett.m4v" type="video/mp4">
+        <source src="midia/video-jett.webm" type="video/webm">
+        <source src="midia/video-jett.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <h2>Colocando vídeo do Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mQgK_U5A0Ws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h2 style="font-family: 'Fire', Times, serif;">Esse paragrafo ta com uma fonte personalizada</h2>
+</body>
+</html>
