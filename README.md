@@ -5,3 +5,4 @@
 
 <p><a href='https://lucasnogueiira.github.io/html-css/desafios/desafio03/index.html'>Exercício página Android</a></p>
 <p><a href='https://lucasnogueiira.github.io/projeto-cordel/'>Exercício Cordel Milton Duarte</a></p>
+<p><a href='https://lucasnogueiira.github.io/html-css/projeto-social/index.html'>Exercício redes sociais</a></p>
