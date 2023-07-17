@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+img{
+    width: 100vw;
+}
+
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+p{
+    text-align: center;
+    font-weight: bolder;
+    padding: 19px;
+    background: rgb(1, 78, 55);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
